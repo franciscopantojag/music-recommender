@@ -40,7 +40,7 @@ Install the dependencies above, start the jupyter server
 $ jupyter notebook
 ```
 
-Open **music-recommender.iynb** and run the last cell
+Open **music-recommender.iynb** and run the last cell.
 
 ## Usage
 
