@@ -5,13 +5,18 @@ This project is the result of the "Python Machine Learning Tutorial" from [Progr
 
 ## The problem
 
-We need to predict which genre of music will prefer a person based on their age and gender.
+We need to predict which genre of music will prefer a person.
+
+### Inputs
+
+- Age
+- Gender
 
 ## Solution
 
 Build a model using machine learning to predict music preferences based on an input .csv music data file (/csv/music.csv). The model was built with Python using the [Jupyter](https://jupyter.org/) Notebook IDE, and some useful libraries.
 
-### Steps
+### Steps followed to build the model:
 
 1. Import the data
 2. Clean the data
@@ -23,7 +28,6 @@ Build a model using machine learning to predict music preferences based on an in
 
 ## Dependencies
 
-- CSV file with data of people's preferences of music by age and gender.
 - [Python](https://www.python.org/)
 - [Scikit-learn](https://scikit-learn.org/stable/)
 - [Panda](https://pandas.pydata.org/)
@@ -32,9 +36,14 @@ Build a model using machine learning to predict music preferences based on an in
 
 ## Installation
 
-Music Recommender requires [Python](https://www.python.org/) to run.
+Music Recommender requires [Python](https://www.python.org/) to run. (Tested on Python 3.9.1)<br/>
+If you are using pip:
 
-Install the dependencies above, start the jupyter server
+```sh
+$ pip install -r requirements.txt
+```
+
+Otherwise, install the dependencies above. Start the jupyter server:
 
 ```sh
 $ jupyter notebook
